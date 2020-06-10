@@ -1,0 +1,50 @@
+body ,.item,#output1,#output2
+{
+    background-color : black;
+    color: aliceblue;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#lable1
+{ 
+    margin-left: 950px;
+}
+
+#button
+{
+    background-color:#4caf50;
+    text-align: center;
+    padding: 12px 20px;
+    border: honeydew;
+    border-radius: 3px;
+    display: flex;
+    margin-left:725px;
+}
+
+#input1
+{
+    padding: 8px 15px;
+    margin-left:690px;  
+}
+#output2,#output1
+{
+    border: black;
+}
+#list
+{
+    list-style: none;
+}
+
+.but1
+{
+    background-color: black; 
+    border: none; 
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
