@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Quizz APP</title>
+        <link rel="stylesheet" href="quizstyle.css">
+        <script src="quizscript.js" type="text/javascript"></script>
+        <script  src="quizz.js" type="text/javascript" ></script>
+    </head>
+    <body class="img">
+        <br>
+        <h1>Cricket Quizz </h1>
+        <hr>
+        <br>
+        <br >  
+        <form action="/" id="questionform"  >
+            <br>
+            <br>
+            <span id="number" >                
+            </span>
+            <span id="questions" >Which  team won the 2019 World Cup ?               
+            </span>
+            <div >       
+                <input type="radio" id="opt1" name="options" >
+                <span id="opt01"> Sri Lanka </span>        
+            </div>
+            <div >       
+                <input type="radio" id="opt2" name="options" >
+                <span id="opt02"> England </span>        
+            </div>
+            <div >       
+                <input type="radio" id="opt3" name="options" >
+                <span id="opt03"> New Zealand </span>        
+            </div>
+            <div >       
+                <input type="radio" id="opt4" name="options" >
+                <span id="opt04"> India </span>        
+            </div>
+            <br>
+            <span><input type="button" value="previous" onclick="PreviousAnswer()" class="button2"></span>
+            <span><input type="button" value="Next" onclick="checkAnswer()" class="button1"></span>
+        </form>        
+    </body>
+</html>
