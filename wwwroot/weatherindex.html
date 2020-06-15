@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>TODO APP</title>
+        <link rel="stylesheet" href="weatherstyle.css">
+        <script>
+            function placesearch()
+                {
+                     var palceis = document.getElementById("input1");
+                     var autocomplete = new google.maps.places.autocomplete(palceis);
+                }
+        </script>
+
+        <script  type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuuu4oFHtLrd7u9Kq4r6TgIY96RZE7oqA_&libraries=places&callback=placesearch">
+        </script>
+        
+        <script  src="weatherscript.js" type="text/javascript" ></script>
+    </head>
+    <body class="img" >
+        <br>
+        <h1>Weather App</h1>
+        <hr>
+        <form >
+            <br>
+            <br>
+            <br>
+            <div>
+                <input type="text" name="item" placeholder="Enter the city" id="input1" autocomplete="on" >
+            </div>
+            <br>
+            <br>
+            <input type="button" value="Check" onclick="submit1()" id="button">
+            <div >
+                <h1 id="output1"> </h1>
+                <h1 id="output2"> </h1>
+
+            </div>
+            <div id="end"><b>Indian City weather Updates</b></div>
+            
+        </form>      
+    </body>
+</html>

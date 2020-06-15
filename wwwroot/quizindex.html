@@ -8,18 +8,44 @@
     <body >
         <h1>Cricket Quizz </h1>
         <div class="img">          
-            <div class="rest">
             <br>
             <hr>
-            <form  action="quizqustions.html">
-                <br>
-                <br>
-                <h3>total number of questions <h3>
-                <h1>10</h1>            
-                <br>
-                <br>
-                <input type="submit" value="READY" onclick="getting(1)" id="button">
+            <form  action="/" id="questionform">
+                <div id="master2">
+                    <h3>total number of questions <h3>
+                    <h1>10</h1>            
+                    <br>
+                    <br>
+                    <input type="submit" value="READY" onclick="getting(0)" id="button">
                 </div>
+                <br>
+                <br>                              
+                <div id="master" hidden>
+                    <span id="number" >               
+                    </span>
+                    <span id="questions" >               
+                    </span>
+                    <div >       
+                        <input type="radio" id="opt1" name="options" >
+                        <span id="opt01">  </span>        
+                    </div>
+                    <div >       
+                        <input type="radio" id="opt2" name="options" >
+                        <span id="opt02">  </span>        
+                    </div>
+                    <div >       
+                        <input type="radio" id="opt3" name="options" >
+                        <span id="opt03">  </span>        
+                    </div>
+                    <div >       
+                        <input type="radio" id="opt4" name="options" >
+                        <span id="opt04">  </span>        
+                    </div>
+                    <br>
+                    <span><input type="button" value="previous" onclick="PreviousAnswer()" class="button2"></span>
+                    <span><input type="button" value="Next" onclick="checkAnswer()" class="button1"></span>
+                </div>
+                
             </form>    
             </div>
         </div>          
