@@ -1,13 +1,14 @@
 <<<<<<< HEAD
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>TODO APP</title>
         <link rel="stylesheet" href="weatherstyle.css">
         <script>
             function placesearch()
                 {
                      var palceis = document.getElementById("input1");
-                     var autocomplete = new google.maps.places.autocomplete(palceis);
+                     var autocomplete = new google.maps.places.Autocomplete(palceis);
                 }
         </script>
 
@@ -20,7 +21,7 @@
         <br>
         <h1>Weather App</h1>
         <hr>
-        <form >
+        <form>
             <br>
             <br>
             <br>
@@ -31,9 +32,26 @@
             <br>
             <input type="button" value="Check" onclick="submit1()" id="button">
             <div >
-                <h1 id="output1"> </h1>
-                <h1 id="output2"> </h1>
-
+                <div>
+                <div>
+                    <h1 id="output1" > </h1>
+                </div>
+                <br>
+                <span id="outputdate1" class="centerdata"> </span>
+                <span id="outputdate2" class="rigthdata"> </span>
+                </div>                
+                <div>
+                    <span id="output2" class="centerdata"> </span>
+                    <span id="outputr2" class="rigthdata"> </span>
+                </div>
+                <div>
+                    <span id="output3" class="centerdata"> </span>
+                    <span id="outputr3" class="rigthdata"> </span>
+                </div>
+                <div>
+                    <span id="output4" class="centerdata"> </span>
+                    <span id="outputr4" class="rigthdata"> </span>
+                </div>               
             </div>
             <div id="end"><b>Indian City weather Updates</b></div>
             
